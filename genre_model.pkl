@@ -1,0 +1,10 @@
+import pickle
+
+# Assuming you have already trained your model `model` and MultiLabelBinarizer `mlb`
+# Save the model
+with open('genre_model.pkl', 'wb') as model_file:
+    pickle.dump(model, model_file)
+
+# Save the MultiLabelBinarizer
+with open('genre_mlb.pkl', 'wb') as mlb_file:
+    pickle.dump(mlb, mlb_file)
