@@ -14,3 +14,8 @@ This is a Streamlit app that uses a machine learning model to predict movie genr
 Enter movie details, and the model predicts genres like Action, Comedy, Drama, etc.
 
 Model trained using TF-IDF + Logistic Regression on TMDb 5000 dataset.
+
+## 📂 Example Files
+
+- `example_input.csv`: Contains sample movie data (title, description, actor).
+- `example_output.csv`: Contains sample genre predictions from the model.
